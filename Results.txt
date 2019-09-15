@@ -1,0 +1,55 @@
+Perform regression and classification tasks. For regression, test datasets with K-Nearest Neighbors and RBF Network. Performance is measured by MSE. For classification, test datasets with K-Nearest Neighbors, Condensed K-Nearest Neighbors, and RBF Network. Performance is measured by classification accuracy.
+
+ ----------
+|REGRESSION|
+ ----------
+
+Forest Fires
+-----------
+K-Nearest Neighbors:
+Best k: 10
+Average MSE: 4573.104894355081
+
+RBF Network:
+Average MSE: 4103.933723570859
+
+Computer Hardware
+-----------
+K-Nearest Neighbors:
+Best k: 3
+Average MSE: 6637.568672086721
+
+RBF Network:
+Average MSE: 17683.649031576548
+
+ --------------
+|CLASSIFICATION|
+ --------------
+
+Ecoli
+-----------
+K-Nearest Neighbors:
+Best k: 4
+Average classification accuracy: 0.878080985915493
+
+Condensed K-Nearest Neighbors:
+Best k: 3
+Average classification accuracy: 0.8477552816901408
+
+RBF Network:
+Average classification accuracy: 0.7783890845070423
+
+Image Segmentation
+-----------
+K-Nearest Neighbors:
+Best k: 5
+Average classification accuracy: 0.8380952380952381
+
+Condensed K-Nearest Neighbors:
+Best k: 3
+Average classification accuracy: 0.7190476190476192
+
+RBF Network:
+Average classification accuracy (dataset normalized): 0.5571428571428572
+Average classification accuracy (dataset unnormalized): 0.7142857142857142
+
